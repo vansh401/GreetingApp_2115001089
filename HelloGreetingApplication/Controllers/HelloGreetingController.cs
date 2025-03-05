@@ -10,8 +10,12 @@ namespace HelloGreetingApplication.Controllers
     public class HelloGreetingController : ControllerBase
     {
         private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
-        public HelloGreetingController()
+
+        private readonly IGreetingBL _greetingBL;
+
+        public HelloGreetingController(IGreetingBL greetingBL)
         {
+            _greetingBL = greetingBL;
             _logger.Info("Logger has been integrated");
         }
         /// <summary>
@@ -86,6 +90,18 @@ namespace HelloGreetingApplication.Controllers
             responseModel.Message = $"Data with Key: {key} deleted successfully";
             responseModel.Data = null;
             return Ok(responseModel);
+        }
+
+        /// <summary>
+        /// To print Hello! World
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("GetGreeting")]
+        public string GetHello()
+        {
+            return _greetingBL.GetGreet();
+
         }
 
 
