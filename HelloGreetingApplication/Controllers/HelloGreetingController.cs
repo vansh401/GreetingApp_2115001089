@@ -105,5 +105,25 @@ namespace HelloGreetingApplication.Controllers
         }
 
 
+        /// <summary>
+        /// this method takes input from user
+        /// </summary>
+        /// <param name="userModel"></param>
+        /// <returns></returns>
+
+        [HttpPost]
+        [Route("PostGreet")]
+        public IActionResult PostGreeting(UserModel userModel)
+        {
+            var result = _greetingBL.greeting(userModel);
+            ResponseModel<string> responseModel = new ResponseModel<string>();
+            responseModel.Success = true;
+            responseModel.Message = "Greet Message With Name";
+            responseModel.Data = result;
+            return Ok(responseModel);
+
+        }
+
+
     }
 }

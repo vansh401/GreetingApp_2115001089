@@ -1,3 +1,13 @@
 2025-03-05 11:51:43.9202 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
 2025-03-05 11:51:45.8602 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
 2025-03-05 12:22:53.3571 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-05 14:20:45.9605 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-05 14:20:46.1427 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello string string 
+2025-03-05 14:21:10.2223 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-05 14:21:10.2223 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello vansh verma 
+2025-03-05 14:21:24.5128 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-05 14:21:24.5128 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello verma 
+2025-03-05 14:21:31.1242 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-05 14:21:31.1242 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello World 
+2025-03-05 14:21:44.7608 | Info | HelloGreetingApplication.Controllers.HelloGreetingController | Logger has been integrated 
+2025-03-05 14:21:44.7608 | Info | RepositoryLayer.Services.GreetingRL | Generated Greeting: Hello vansh verma 
