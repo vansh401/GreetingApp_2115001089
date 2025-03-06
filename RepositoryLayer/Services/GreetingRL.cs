@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using ModelLayer.Model;
 using NLog;
+using RepositoryLayer.Context;
+using RepositoryLayer.Entity;
 using RepositoryLayer.Interface;
 
 namespace RepositoryLayer.Services
@@ -12,6 +15,28 @@ namespace RepositoryLayer.Services
     public class GreetingRL:IGreetingRL
     {
         private static readonly Logger _logger = LogManager.GetCurrentClassLogger();
+        private readonly GreetingContext _context;
+
+        public GreetingRL(GreetingContext context)
+        {
+            _context = context;
+        }
+
+
+        public bool GreetMessage(GreetingModel greetingModel)
+        {
+            if (_context.GreetMessages.Any(greet => greet.Greeting == greetingModel.GreetMessage))  
+            {
+                return false;
+            }
+            var greetingEntity = new GreetingEntity
+            {
+                Greeting = greetingModel.GreetMessage,
+            };
+            _context.GreetMessages.Add(greetingEntity);
+            _context.SaveChanges();
+            return true;
+        }
 
 
         public string Greeting(UserModel userModel)

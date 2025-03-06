@@ -14,6 +14,7 @@ C:\Users\Lenovo\source\repos\HelloGreetingApplication\RepositoryLayer\obj\Debug\
 C:\Users\Lenovo\source\repos\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
 C:\Users\Lenovo\source\repos\HelloGreetingApplication\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
@@ -28,4 +29,5 @@ C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\Repository
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache
 C:\Users\Lenovo\OneDrive\Desktop\greetingClone\GreetingApp_2115001089\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
